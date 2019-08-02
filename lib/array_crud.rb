@@ -1,39 +1,39 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  famous_people = ["MJ", "Will Smith", "Denzel", "Serena"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  array.push("Tupac")
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  array.unshift("Cardi B")
 end
 
 def remove_element_from_end_of_array(array)
-  
+  famous_people.pop()
 end
 
 def remove_element_from_start_of_array(array)
-  
+  famous_people.shift()
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  famous_people[1]
 end
 
 def retrieve_first_element_from_array(array)
-  
+  famous_people[0]
 end
 
 def retrieve_last_element_from_array(array)
-  
+  famous_people[-1]
 end
 
 def update_element_from_index(array, index_number, element)
-
+  famous_people[2] = "Janet Jackson"
 end
