@@ -35,5 +35,5 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, index_number, element)
-  famous_people[2] = "Janet Jackson"
+  array[1] = element
 end
